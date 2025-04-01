@@ -1,4 +1,4 @@
-# Interfood Rating Chrome Extension ⭐
+# Interfood Rating Chrome Extension
 
 This Chrome extension allows you to rate meals (1-5 stars) on [Interfood.hu](https://rendel.interfood.hu), and it syncs your ratings across devices using Firebase.
 
@@ -19,8 +19,8 @@ This Chrome extension allows you to rate meals (1-5 stars) on [Interfood.hu](htt
 
 ### 1. Clone this repo
 ```bash
-git clone https://github.com/yourusername/interfood-rating-extension.git
-cd interfood-rating-extension
+git clone https://github.com/kocsisdavid99/InterfoodRatingExtension.git
+cd InterfoodRatingExtension
 ```
 
 ### 2. Create a Firebase Project
