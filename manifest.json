@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Interfood Étel Értékelő (Firebase)",
+  "version": "2.2",
+  "description": "Értékeld az Interfood ételeit, és szinkronizáld Firebase segítségével!",
+  "permissions": ["storage", "identity", "scripting"],
+  "host_permissions": ["https://rendel.interfood.hu/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://rendel.interfood.hu/*"],
+      "js": ["inject.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["injected.js", "stars.css"],
+      "matches": ["https://rendel.interfood.hu/*"]
+    }
+  ],
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}
